@@ -1,0 +1,11 @@
+import React from 'react';
+
+const PrimaryButton = ({ children }) => {
+    return (
+        <div>
+            <button className="btn btn-primary bg-gradient-to-r from-secondary to-primary text-white font-bold uppercase">{children}</button>
+        </div>
+    );
+};
+
+export default PrimaryButton;
